@@ -26,7 +26,7 @@ const Planets = ({ addToFavorites }) => {
 
   return (
     <div>
-      <h2 style={{color: "yellow", import: "url('https://fonts.cdnfonts.com/css/star-wars')", fontFamily: "Star wars, sans-serif"}}>Planets</h2>
+      <h2 style={{color: "Black", import: "url('https://fonts.cdnfonts.com/css/star-wars')", fontFamily: "Star wars, sans-serif"}}>Planets</h2>
       <div className="card-container">
         {planets.map((planet, index) => (
           <div className="card card-item" key={`planet-${index}`}>

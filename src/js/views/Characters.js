@@ -31,7 +31,7 @@ const Characters = ({ addToFavorites }) => {
 
   return (
     <div id="Character">
-      <h2 style={{color: "yellow", import: "url('https://fonts.cdnfonts.com/css/star-wars')", fontFamily: "Star wars, sans-serif"}}>Characters</h2>
+      <h2 style={{color: "black", import: "url('https://fonts.cdnfonts.com/css/star-wars')", fontFamily: "Star wars, sans-serif"}}>Characters</h2>
       <div className="card-container">
       {characters.map((character, index) => (
           <div className="card card-item" key={`character-${index}`}>

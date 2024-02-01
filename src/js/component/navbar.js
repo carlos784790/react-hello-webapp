@@ -14,7 +14,7 @@ export const Navbar = () => {
         <nav className="navbar navbar-light mb-3">
             <Link to="/">
                 <img
-                    src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Star_Wars_Logo.svg"
+                    src="https://framerusercontent.com/images/HVzApGKkH6YM1vUO9zOo5lJBC4.jpeg"
                     style={{ width: "30vh" }}
                     alt="Star Wars Logo"
                 />
